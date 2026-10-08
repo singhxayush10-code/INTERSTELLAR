@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#uno{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-image: url(https://i.pinimg.com/1200x/0b/36/63/0b36632ceffe66aaa1e704347a6311be.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#uno #dos{
+    width: 400px;
+    height: 400px;
+}
+
+#dos #tres{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    /* background-color: rgba(160, 157, 157, 0.574); */
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#tres h1{
+    color: black;
+    font-size: 100px;
+    font-weight: 200;
+    letter-spacing: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#tres p{
+    color: black;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tres button{
+    color: black;
+    font-size: 25px;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+}
